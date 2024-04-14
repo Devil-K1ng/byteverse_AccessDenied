@@ -5,13 +5,14 @@
 .navbar{
     margin-left: 430px;
     white-space: 10px;
+    position: relative;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     
 }
 
 .background-image{
-    background: url(bg2.jpeg);
+    background: url(Meditation.jpg);
     opacity: 0.95;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,6 +23,7 @@
     display: flex;
     flex-direction: column;
     vertical-align: baseline;
+    /* text-align: ; */
     align-items: center;
     /* background-color: #C6EBC5; */
     text-align: center;
@@ -36,7 +38,7 @@
     flex-direction: column;
     text-align: left;
     margin-left: 1cm;
-    margin-top: 280px;
+    margin-top: 80px;
 }
 
 .main3{

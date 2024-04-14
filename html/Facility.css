@@ -1,0 +1,125 @@
+:root{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    transition: .2s;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+html{
+    font-size: 65.5%;
+    overflow: ;
+}
+
+.header{
+padding: 1.5rem 7%;
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+left: 0;
+right: 0;
+
+}
+.header #logo{
+    width: 80px;
+    height: 60px;
+    background: transparent;
+
+}
+.navbar a{
+    color: black;
+    font-size: 2rem;
+    
+    margin-left: 2rem;
+    position: relative;
+    text-align: center;
+    align-items: center;
+
+}
+
+.navbar a:after{
+    content: "";
+    background: var();
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: ;
+    margin-top: 5px;
+    transform: .3s;
+    align-items: center;
+}
+
+.navbar a:hover:after{
+    content: "";
+    background: var();
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: ;
+    margin-top: 5px;
+}
+.header .btnlogin-popup{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #080707;
+    outline: none;
+    border-radius: 1.1em;
+    color: #643232;
+    font-weight: 500px;
+    margin-left: 80px;
+    transition: .5s;
+    font-color:white;
+    align-items: end;
+  }
+  
+.header .btnlogin-popup:hover {
+    background: rgb(102, 160, 235);
+    color: #d4d7da;
+    text-decoration: white;
+  }
+
+.background-image{
+    background-color: rgb(128, 177, 177);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.background-content{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 50%;
+    transform: translate(-80%);
+    font-size: 220%;
+}
+.background-content H1{
+    color: #080707;
+    font-size: 65px;
+    margin-bottom: 20px;
+
+}
+.background-content p{
+    position: absolute;
+    left: 42%;
+    top:80%;
+    width: 50%;
+    transform: translate(-80%);
+    font-size: 100%;
+}
